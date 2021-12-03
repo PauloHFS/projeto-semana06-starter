@@ -121,13 +121,24 @@ body {
   line-height: 18px;
 }
 
-.woman-flower .container {
+.woman-flower .container,
+.group-cellphone .container,
+.woman-arroba .container {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15vh;
+}
+
+.woman-flower .container .woman-flower-content,
+.group-cellphone .container .group-cellphone-content,
+.woman-arroba .container .woman-arroba-content {
+  width: 45%;
 }
 
 .footer {
-  height: 25vh;
+  height: 20vh;
   min-height: 216px;
 
   background-color: #e7ecff;
